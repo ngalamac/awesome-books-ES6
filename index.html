@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books-ES6</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0/build/global/luxon.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <div class="logo"><a href="#welcome"><img src="./logo.png" alt="site logo"></a></div>
+        <nav>
+            <ul>
+                <li><a href="#booklist">Book List</a></li>
+                <li><a href="#addbook">Add Book</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div id="current-time"></div>
+    </header>
+    <main>
+        <section id="welcome">
+            <p>Hello!! Welcome to Awesome books Library</p>
+        </section>
+        <section id="booklist">
+            <div id="list-container">
+                <h1>All Awesome Books</h1>
+                <div id="listing">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="addbook">
+            <form action="#" id="addbook-form">
+                <h2>Add a book</h2>
+                <span>
+                    <input type="text" id="title" required placeholder="Title">
+                    <input type="text" id="author" required placeholder="Author">
+                    <button type="submit">Add</button>
+                </span>
+            </form>
+        </section>
+        <section id="contact">
+            <div id="cont-header">
+                <h2>Contact Information</h2>
+            </div>
+            <div id="cont-para">
+                <p> Do you have any questions or you just want to say "Hello"?<br>
+                    You can reach out to us!</p>
+            </div>
+            <div id="cont-ul">
+                <ul>
+                    <li>Our email: macngala4@gmail.com</li>
+                    <li>Our phone number: +237652278121</li>
+                    <li>Our address: obili, 237Yde, Cameroon</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright @ngalamac 2023</p>
+    </footer>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
