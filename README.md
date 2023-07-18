@@ -90,9 +90,7 @@ You can deploy this project using:
 ```
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-A live demo link will be updated soon
+https://ngalamac.github.io/awesome-books-ES6/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
