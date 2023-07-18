@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(239, 239, 239);
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.logo img {
+  width: 170px;
+  height: 100px;
+}
+
+#current-time {
+  text-align: end;
+  margin-top: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 620px;
+  padding-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  border-left: 1px solid black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: goldenrod;
+  background-color: black;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+#booklist,
+#addbook,
+#contact {
+  display: none;
+}
+
+#welcome {
+  margin-bottom: 80px;
+}
+
+#welcome p {
+  font-size: 30px;
+  padding: 100px;
+  background-color: rgb(239, 239, 239);
+}
+
+#booklist {
+  margin-bottom: 250px;
+  background-color: rgb(239, 239, 239);
+}
+
+#booklist h1 {
+  font-size: 29px;
+}
+
+#addbook,
+#booklist,
+#contact {
+  padding: 30px 170px 80px 170px;
+  background-color: rgb(239, 239, 239);
+  margin-top: -80px;
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 10px;
+}
+
+#addbook {
+  margin-bottom: 120px;
+}
+
+#contact {
+  padding-bottom: 30px;
+}
+
+#addbook-form,
+#addbook-form span {
+  background-color: rgb(239, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#addbook-form span input {
+  width: 225px;
+  padding: 10px;
+}
+
+button {
+  margin-left: 165px;
+  padding: 3px 15px 3px 15px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 3px;
+  color: #fff;
+}
+
+#contact {
+  margin-bottom: 55px;
+}
+
+#cont-header {
+  padding: 0 0 80px 0;
+}
+
+#cont-header h2 {
+  text-align: center;
+  font-size: 29px;
+}
+
+#cont-para p {
+  font-size: 23px;
+  padding: 0 0 30px 0;
+  line-height: auto;
+}
+
+#cont-ul ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  font-size: 21px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  padding: 3px 300px 3px 300px;
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 10px;
+}
