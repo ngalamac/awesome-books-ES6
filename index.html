@@ -1,78 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./src/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books-ES6</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0/build/global/luxon.min.js"></script>
+
 </head>
-
 <body>
-  <header>
-    <div>
-    <h1>Awesome Books</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#bookCollection" id="booksCollection">Book Collection</a></li>
-        <li><a href="#addBook" id="addBooks">Add Book</a></li>
-        <li><a href="#contact" id="contacts">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div id="current-date"></div>
-    <div class="login-box">
-      <div class="welcome-message" id="welcome-message">
-        <p>Hello Welcome To Awesome Books</p>
-      </div>
-      <div id="bookCollection">
-      <div class="collection-container">
-        <h1>All Awesome books</h1>
-        <div id="collection"></div>
-      </div>
-      </div>
-      <div id="addBook">
-      <form id="book-form" >
-        <h2>Add a book</h2>
-        <div class="user-box">
-          <input type="text" name="" required="" id="title">
-          <label>Book Title</label>
+    <header>
+        <div class="navbar">
+        <div class="logo"><a href="#welcome"><img src="./logo.png" alt="site logo"></a></div>
+        <nav>
+            <ul>
+                <li><a href="#booklist">Book List</a></li>
+                <li><a href="#addbook">Add Book</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         </div>
-        <div class="user-box">
-          <input type="text" name="" required="" id="author">
-          <label>Book Author</label>
-        </div>
-        <button id="add-button" type="submit">ADD<span></span></button>
-      </form>
-    </div>
-    <div id="contact">
-    <div class="contactInfo">
-      <h1>Contact information</h1>
+        <div id="current-time"></div>
+    </header>
+    <main>
+        <section id="welcome">
+            <p>Hello!! Welcome to Awesome books Library</p>
+        </section>
+        <section id="booklist">
+            <div id="list-container">
+                <h1>All Awesome Books</h1>
+                <div id="listing">
 
-      <p>
-        Do have any questions or you just want to say "Hello"?<br>
-        You can reach out to us!
-      </p>
-    
-      <ul>
-        <li>Our email: macngala4@gmail.com</li>
-        <li>Our phone number: +237 652278121</li>
-        <li>Our address: Obili, 237 Yaounde, Cameroon</li>
-      </ul>
-    </div>
-    </div>
-  </div>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <div class="copyright">
-      &copy;Copyright refactored by Ngala
-    </div>
-    <div class="date">
-      2023
-    </div>
-  </footer>
-
-  
-    <script src="./dist/main.js"></script>
+        <section id="addbook">
+            <form action="#" id="addbook-form">
+                <h2>Add a book</h2>
+                <span>
+                    <input type="text" id="title" required placeholder="Title">
+                    <input type="text" id="author" required placeholder="Author">
+                    <button type="submit">Add</button>
+                </span>
+            </form>
+        </section>
+        <section id="contact">
+            <div id="cont-header">
+                <h2>Contact Information</h2>
+            </div>
+            <div id="cont-para">
+                <p> Do you have any questions or you just want to say "Hello"?<br>
+                    You can reach out to us!</p>
+            </div>
+            <div id="cont-ul">
+                <ul>
+                    <li>Our email: macngala4@gmail.com</li>
+                    <li>Our phone number: +237652278121</li>
+                    <li>Our address: obili, 237Yde, Cameroon</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright @ngalamac 2023</p>
+    </footer>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
