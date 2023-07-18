@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/index.css">
+</head>
+
+<body>
+  <header>
+    <div>
+    <h1>Awesome Books</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#bookCollection" id="booksCollection">Book Collection</a></li>
+        <li><a href="#addBook" id="addBooks">Add Book</a></li>
+        <li><a href="#contact" id="contacts">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="current-date"></div>
+    <div class="login-box">
+      <div class="welcome-message" id="welcome-message">
+        <p>Hello Welcome To Awesome Books</p>
+      </div>
+      <div id="bookCollection">
+      <div class="collection-container">
+        <h1>All Awesome books</h1>
+        <div id="collection"></div>
+      </div>
+      </div>
+      <div id="addBook">
+      <form id="book-form" >
+        <h2>Add a book</h2>
+        <div class="user-box">
+          <input type="text" name="" required="" id="title">
+          <label>Book Title</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="" required="" id="author">
+          <label>Book Author</label>
+        </div>
+        <button id="add-button" type="submit">ADD<span></span></button>
+      </form>
+    </div>
+    <div id="contact">
+    <div class="contactInfo">
+      <h1>Contact information</h1>
+
+      <p>
+        Do have any questions or you just want to say "Hello"?<br>
+        You can reach out to us!
+      </p>
+    
+      <ul>
+        <li>Our email: macngala4@gmail.com</li>
+        <li>Our phone number: +237 652278121</li>
+        <li>Our address: Obili, 237 Yaounde, Cameroon</li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="copyright">
+      &copy;Copyright refactored by Ngala
+    </div>
+    <div class="date">
+      2023
+    </div>
+  </footer>
+
+  
+    <script src="./dist/main.js"></script>
+</body>
+</html>
