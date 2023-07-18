@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable max-classes-per-file */
 import { DateTime } from 'luxon';
-import { BookCollection } from '../modules/bookCollection';
+import { BookCollection } from '../modules/bookCollection.js';
 
 const collection = new BookCollection();
 collection.initialize();
